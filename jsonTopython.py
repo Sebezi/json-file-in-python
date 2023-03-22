@@ -1,4 +1,4 @@
-import json
+import json,os
 #JSON data
 print("\033c")  # to remove path
 jsonFile = '{"name": "Temesgen", "age": "1"}'
@@ -10,3 +10,4 @@ print("JSON file: "+jsonFile)
 pythonFile = json.loads(jsonFile)
 print(type(pythonFile))
 print("python file:"+str(pythonFile ))
+
