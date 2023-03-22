@@ -5,6 +5,7 @@ jsonFile = '{"name": "Temesgen", "age": "1"}'
 print(type(jsonFile))
 print("JSON file: "+jsonFile)
 
+
 #To convert JSON to python dictionary file
 pythonFile = json.loads(jsonFile)
 print(type(pythonFile))
